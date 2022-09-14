@@ -142,7 +142,7 @@
 
            
     pgqr-navigation{
-        display: flex;
+        display: none!important;
     }
 
     .col{
