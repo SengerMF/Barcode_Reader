@@ -2,8 +2,9 @@
     console.log('run_one');
 
 setInterval(function () {
-    document.getElementsByTagName('a')[0].innerText = '';
-    document.getElementsByTagName('a')[1].innerText = '';
+    try{document.getElementsByTagName('a')[0].innerText = '';
+    document.getElementsByTagName('a')[1].innerText = '';}catch{}
+    
 }, 100);
 
 
