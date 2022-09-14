@@ -59,7 +59,7 @@
     pgqr-navigation{
         margin-top: -45px;
         margin-left: -50px;
-       /* background: blue;*/
+        background: white;
         max-width: fit-content;
         max-height: 25px;
         display: flex!important;
@@ -141,9 +141,7 @@
            }
 
            
-    pgqr-navigation{
-        display: none!important;
-    }
+
 
     .col{
         display: flex;
