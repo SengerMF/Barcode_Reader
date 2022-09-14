@@ -13,6 +13,9 @@
   z-index: -1!important;
 }
 
+[_nghost-xgh-c2]{
+    height: 0!important;
+}
     
 
     .qr-live_no-cameras{
