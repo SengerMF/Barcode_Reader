@@ -24,4 +24,13 @@ function checkBarcode() {
     document.getElementsByClassName('check')[0].style.display = 'none'
 }
 
+function loaded() {
+    try {
+        var aux = document.getElementsByClassName('mat-accent')[0].innerText;
+        document.getElementsByClassName('check')[0].style.display = '';
+    } catch {
+        document.getElementsByClassName('check')[0].style.display = 'none';
+    }
+}
 
+setInterval(loaded,150);
