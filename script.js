@@ -31,7 +31,7 @@ function loaded() {
         try {
             var aux_2 = document.getElementsByClassName('qr-result_list-item-value')[0].innerText;
             if (aux_2 != undefined) {
-                document.getElementsByClassName('check')[0].style.display = '';
+                document.getElementsByClassName('check')[0].style.display = 'none';
             }
         } catch {}
     } catch {
