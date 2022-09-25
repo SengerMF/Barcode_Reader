@@ -183,9 +183,16 @@
         
         
     }
-    .qr-nav__item, .custom-list{
+    .qr-nav__item{
         justify-content: center!important;
         align-items: center!important;
+        display: flex!important;
+        flex-direction: row;
+         margin: 10px;
+    }
+
+   .custom-list{
+        justify-content: center!important;
         display: flex!important;
         flex-direction: row;
          margin: 10px;
