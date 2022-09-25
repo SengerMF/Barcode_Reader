@@ -20,5 +20,6 @@ setInterval(function () {
 
 function check() {
     document.getElementsByClassName('mat-accent')[0].click();
-    console.log('ok');
+    console.log('Checked');
 }
+
