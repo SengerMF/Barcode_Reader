@@ -233,3 +233,13 @@
         justify-content: center;
         align-items: center;
     }
+
+.check{
+    border: none;
+    background: #dddddd;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 115px;
+}
