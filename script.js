@@ -29,7 +29,8 @@ function loaded() {
         var aux = document.getElementsByClassName('mat-accent')[0].innerText;
         document.getElementsByClassName('check')[0].style.display = '';
     } catch {
-        document.getElementsByClassName('check')[0].style.display = 'none';
+        try{document.getElementsByClassName('check')[0].style.display = 'none';}catch{}
+        
     }
 }
 
