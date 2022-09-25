@@ -28,10 +28,16 @@ function loaded() {
     try {
         var aux = document.getElementsByClassName('mat-accent')[0].innerText;
         document.getElementsByClassName('check')[0].style.display = '';
+        try {
+            var aux_2 = document.getElementsByClassName('qr-result_list-item-value')[0].innerText;
+            if (aux_2 != undefined) {
+                document.getElementsByClassName('check')[0].style.display = '';
+            }
+        } catch {}
     } catch {
-        try{document.getElementsByClassName('check')[0].style.display = 'none';}catch{}
-        
+        try {
+            document.getElementsByClassName('check')[0].style.display = 'none';
+        } catch {}
     }
 }
-
-setInterval(loaded,150);
+setInterval(loaded, 150);
