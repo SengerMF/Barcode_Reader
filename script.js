@@ -27,7 +27,7 @@ function checkBarcode() {
 try{
     var aux  = document.getElementsByClassName('mat-accent')[0].innerHTML;
     
-    document.getElementsByClassName('check')[0].style.display = 'flex' 
+    document.getElementsByClassName('check')[0].style.display = '' 
 
 }catch{
 
