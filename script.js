@@ -18,7 +18,7 @@ setInterval(function () {
 
 
 
-function check() {
+function checkBarcode() {
     document.getElementsByClassName('mat-accent')[0].click();
     console.log('Checked');
 }
