@@ -22,6 +22,9 @@ function checkBarcode() {
     document.getElementsByClassName('mat-accent')[0].click();
     console.log('Checked');
     document.getElementsByClassName('check')[0].style.display = 'none'
+
+    var contentBarcode = document.getElementsByClassName('qr-result_list-item-content')[0].innerText;
+    window.parent.postMessage(contentBarcode, '*');
 }
 
 function loaded() {
